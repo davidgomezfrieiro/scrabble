@@ -29,7 +29,6 @@ function scrabbleScore(str) {
         let string = str
         string = string.split("").join("+")
         score = eval(string)
-        console.log(string);
     }
 
     return score
