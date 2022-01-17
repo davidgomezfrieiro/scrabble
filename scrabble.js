@@ -35,6 +35,6 @@ function scrabbleScore(str) {
 }
 
 console.log(scrabbleScore("cabbage")); // 14
-//console.log(scrabbleScore("")); // 0
-//console.log(scrabbleScore("STREET")); // 6
-//console.log(scrabbleScore("st re et")); // 6 
+console.log(scrabbleScore("")); // 0
+console.log(scrabbleScore("STREET")); // 6
+console.log(scrabbleScore("st re et")); // 6 
